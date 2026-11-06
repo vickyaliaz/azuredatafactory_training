@@ -1,0 +1,21 @@
+{
+	"name": "DS_SQL_TO_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_TO_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "dest/Sql_server",
+				"fileSystem": "destination"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

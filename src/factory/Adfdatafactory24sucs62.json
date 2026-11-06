@@ -1,0 +1,15 @@
+{
+	"name": "Adfdatafactory24sucs62",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "indiasouthcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "784872c9-dbeb-4366-989c-0de840f7b8ba",
+		"tenantId": "4e35804a-f30e-4a33-96f7-741674c14914"
+	}
+}
