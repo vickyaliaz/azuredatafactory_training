@@ -1,0 +1,75 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Adfdatafactory24sucs62"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_0611_accountKey": {
+			"value": ""
+		},
+		"LS_DESC_MULTI_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTI_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_TO_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_copy_accountKey": {
+			"value": ""
+		},
+		"Ls_SqlServer_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_ADLS_0611_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_DESC_MULTI_CSV_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_MULTI_CSV_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_SQL_TO_ADLS_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_copy_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"Ls_SqlServer_properties_typeProperties_server": {
+			"value": "LAPTOP-API185NP\\SQLEXPRESS"
+		},
+		"Ls_SqlServer_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"Ls_SqlServer_properties_typeProperties_userName": {
+			"value": "Vignesh"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
