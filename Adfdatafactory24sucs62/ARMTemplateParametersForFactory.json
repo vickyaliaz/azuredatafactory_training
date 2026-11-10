@@ -23,6 +23,18 @@
 		"LS_MULTI_CSV_accountKey": {
 			"value": ""
 		},
+		"LS_PAR_accountKey": {
+			"value": ""
+		},
+		"LS_PARQ_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_CHILD_password": {
+			"value": ""
+		},
+		"LS_SQL_MIG_password": {
+			"value": ""
+		},
 		"LS_SQL_TO_ADLS_accountKey": {
 			"value": ""
 		},
@@ -49,6 +61,30 @@
 		},
 		"LS_MULTI_CSV_properties_typeProperties_url": {
 			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_PAR_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_PARQ_properties_typeProperties_url": {
+			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
+		},
+		"LS_SQL_CHILD_properties_typeProperties_server": {
+			"value": "LAPTOP-API185NP\\SQLEXPRESS"
+		},
+		"LS_SQL_CHILD_properties_typeProperties_database": {
+			"value": "MIG_PROJ"
+		},
+		"LS_SQL_CHILD_properties_typeProperties_userName": {
+			"value": "Vignesh"
+		},
+		"LS_SQL_MIG_properties_typeProperties_server": {
+			"value": "LAPTOP-API185NP\\SQLEXPRESS"
+		},
+		"LS_SQL_MIG_properties_typeProperties_database": {
+			"value": "MIG_PROJ"
+		},
+		"LS_SQL_MIG_properties_typeProperties_userName": {
+			"value": "Vignesh"
 		},
 		"LS_SQL_TO_ADLS_properties_typeProperties_url": {
 			"value": "https://adfstorage24sucs62.dfs.core.windows.net/"
