@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_MIG",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-API185NP\\SQLEXPRESS",
+			"database": "MIG_PROJ",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Vignesh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1MTVmOGJjYS0wZjZmLTRhODUtOWI1Yi0yNWU4YTdiODVjNGQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
