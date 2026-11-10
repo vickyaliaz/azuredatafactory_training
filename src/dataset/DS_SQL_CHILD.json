@@ -1,0 +1,24 @@
+{
+	"name": "DS_SQL_CHILD",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_CHILD",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaname": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "@dataset().schemaname",
+			"table": "@dataset().tablename"
+		}
+	}
+}
