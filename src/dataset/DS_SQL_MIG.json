@@ -1,0 +1,12 @@
+{
+	"name": "DS_SQL_MIG",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_MIG",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
